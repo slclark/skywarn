@@ -1,0 +1,33 @@
+[
+  {
+    "title": "30-44 mph (26-39 kt)",
+    "description": "Whole trees in motion. Inconvenient walking into the wind.  Light-weight loose objects (e.g., lawn furniture) tossed or toppled.",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },
+  {
+    "title": "45-57 mph (39-49 kt)",
+    "description": "Large trees bend; twigs, small limbs break and a few larger dead or weak branches may break.  Old/weak structures (e.g., sheds, barns) may sustain minor damage (roof, doors).  Buildings partially under construction may be damaged.  A few loose shingles removed from houses.",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },
+  {
+    "title": "58-74 mph (50-64 kt)",
+    "description": "Large limbs break; shallow rooted trees pushed over.  Semi-trucks overturned.  More significant damage to old/week structures. Shingles, awnings removed from houses; damage to chimneys and antennas.",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },
+  {
+    "title": "75-89 mph (65-77 kt)",
+    "description": "Widespread damage to trees with large limbs down or trees broken/uprooted.  Mobile homes may be pushed off foundation or overturned.  Roof may be partially peeled off industrial/commerical/warehouse buildings.  Some minor roof damage to homes.  Weak structures (e.g., farm buildings, airplane hangars) may be severely damaged.",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },
+  {
+    "title": "90+ mph (78+ kt)",
+    "description": "Many large trees broken and uprooted. Mobile homes damaged.  Roofs partially peeled off homes and buildings. Moving automobiles pushed off the road.  Barns, sheds demolished.",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  }
+
+]

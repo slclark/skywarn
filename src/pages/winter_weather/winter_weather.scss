@@ -1,0 +1,27 @@
+page-winter-weather {
+  .details-header {
+    background-color: blue;
+    border-bottom: 1px solid red;
+    color:#fff;
+    ion-col{
+      font-weight: bold;
+      font-size:1.2em;
+    }
+  }
+
+  .details-info {
+    ion-col {
+      border: 1px solid #efefef;
+
+      h1 {
+        font-size: 1.2em;
+      }
+      img {
+      }
+    }
+    .name {
+      background-color:#efefef;
+      text-align:center;
+    }
+  }
+}

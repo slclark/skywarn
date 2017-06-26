@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{selectedItem.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+  <ion-row class="details-header">
+    <ion-col col-3>Type of Event</ion-col>
+    <ion-col col-4>When to Call</ion-col>
+    <ion-col col-5>NWS Warning Criteria/Additional Information</ion-col>
+  </ion-row>
+  <ion-row class="details-info">
+    <ion-col col-3 class="name"><img [src]="selectedItem.icon"/><h1>{{selectedItem.title}}</h1></ion-col>
+    <ion-col col-4 [innerHtml]="selectedItem.call"></ion-col>
+    <ion-col col-5 [innerHtml]="selectedItem.criteria"></ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

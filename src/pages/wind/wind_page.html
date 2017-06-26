@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Estimating Wind Speeds</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+    <ion-row class="details-header">
+      <ion-col col-3>Wind Speed</ion-col>
+      <ion-col col-4>Visual Description</ion-col>
+      <ion-col col-5></ion-col>
+    </ion-row>
+    <ion-row class="details-info" *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-col col-3 class="name"><h1>{{item.title}}</h1></ion-col>
+      <ion-col col-4 [innerHtml]="item.description"></ion-col>
+      <ion-col col-4><img [src]="item.icon"/></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

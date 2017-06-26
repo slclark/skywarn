@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Pea",
+    "size": ".25 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Half-inch",
+    "size": ".50 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Penny",
+    "size": ".27 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Nickel",
+    "size": ".88 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Quarter",
+    "size": "1 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Half Dollar",
+    "size": "1.25 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Ping Pong Ball",
+    "size": "1.50 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Golf Ball",
+    "size": "1.75 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Hen Egg",
+    "size": "2.00 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Tennis Ball",
+    "size": "2.50 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Baseball",
+    "size": "2.75 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Tea Cup",
+    "size": "3.00 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Grapefruit",
+    "size": "4.00 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  },{
+    "title": "Softball",
+    "size": "4.50 inch",
+    "icon": "assets/icon/funnel_cloud.jpg",
+    "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Greg Thompson, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
+  }
+
+]
