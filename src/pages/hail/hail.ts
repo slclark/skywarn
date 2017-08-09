@@ -22,7 +22,6 @@ export class HailListPage {
 
   dataLoad(){
     return new Promise(resolve => {
-    let items = [];
       let file = 'assets/data/hail-sizes.json';
       this.dataFileService.load(file)
         .then(data => {

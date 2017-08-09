@@ -15,9 +15,8 @@
     <ion-col col-5></ion-col>
   </ion-row>
   <ion-row class="details-info" *ngFor="let item of items" (click)="itemTapped($event, item)">
-    <ion-col col-3 class="name"><h1>{{item.title}}</h1></ion-col>
-    <ion-col col-4 [innerHtml]="item.size"></ion-col>
-    <ion-col col-4><img [src]="item.icon"/></ion-col>
+    <ion-col col-4 class="name"><img [src]="item.icon"/><h1>{{item.title}}</h1></ion-col>
+    <ion-col col-8 [innerHtml]="item.size"></ion-col>
   </ion-row>
 </ion-grid>
 </ion-content>

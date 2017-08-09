@@ -24,21 +24,21 @@
     "title": "Wind Gusts",
     "call": "50 mph or higher",
     "criteria": "Severe Thunderstorm Warning issued. Sustained 40 mph. Gusts to 58 mph. Specify estimate or measured.",
-    "icon": "assets/icons/wind_gusts.jpg",
+    "icon": "assets/icon/wind_gusts.jpg",
     "copyright": ""
   },
   {
     "title": "Heavy Rain",
     "call": "1.0&quot; rain/hour or greater for urban areas.<br/>1.5&quot; rain/hour or greater for rural areas.<br/>Fire Burn areas: ~0.5-0.75$quot; rain/hour or less.<br/>Also, call 911 for flooding.",
     "criteria": "Flash Flood Warning issued. Flooding that impacts roads, homes, or businesses.",
-    "icon": "assets/icons/heavy_rain.jpg",
+    "icon": "assets/icon/heavy_rain.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Storm Damage",
     "call": "Always",
     "criteria": "Damage to structures (roof, siding, windows, etc).<br/>Damage to vehicles (from hail or wind).<br/>Trees or large limbs down.<br/>Power/telephone poles or lines down.<br/>Damage to arm equipment, machinery, etc.",
-    "icon": "assets/icons/storm_damage.jpg",
+    "icon": "assets/icon/storm_damage.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   }
 ]

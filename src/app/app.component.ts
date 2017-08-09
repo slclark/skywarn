@@ -8,6 +8,7 @@ import { SevereWeatherListPage } from '../pages/severe_weather/severe_weather';
 import { WinterWeatherListPage } from '../pages/winter_weather/winter_weather';
 import { WindListPage } from '../pages/wind/wind';
 import { HailListPage } from '../pages/hail/hail';
+import { SpotterDataPage } from '../pages/spotter_data/spotter_data';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class MyApp {
       { title: 'Severe Weather', component: SevereWeatherListPage },
       { title: 'Winter Weather', component: WinterWeatherListPage },
       { title: 'Wind Speeds', component: WindListPage },
-      { title: 'Hail Sizes', component: HailListPage }
+      { title: 'Hail Sizes', component: HailListPage },
+      { title: 'Spotter Data', component: SpotterDataPage }
     ];
 
   }

@@ -7,12 +7,75 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
+    
+    <div padding>
+  <ion-segment [(ngModel)]="menu">
+    <ion-segment-button value="report">
+      Make a Report
+    </ion-segment-button>
+    <ion-segment-button value="contact">
+      Contact Leader
+    </ion-segment-button>
+  </ion-segment>
+</div>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+<div [ngSwitch]="menu">
+<ion-grid *ngSwitchCase="'report'">
+  <ion-row *ngIf="data.spotterNumber">
+    <ion-col col-4>Your Spotter Number</ion-col>
+      <ion-col col-8>
+       {{data.spotterNumber}}
+      </ion-col></ion-row>
+      <ion-row *ngIf="data.phone1">
+        <ion-col col-4>Spotter Phone Line #1</ion-col>
+          <ion-col col-8>
+              <button ion-button (click)="sharedVars.launch('tel:'+data.phone1)">Call {{data.phone1}}</button>
+ 
+    </ion-col></ion-row>
+      <ion-row *ngIf="data.phone2">
+        <ion-col col-4>Spotter Phone Line #2</ion-col>
+          <ion-col col-8>
+              <button ion-button (click)="sharedVars.launch('tel:'+data.phone2)">Call {{data.phone2}}</button>
+          </ion-col></ion-row>
+    <ion-row>
+    <ion-col col-12>
+        When calling, give the following:<ol>
+        <li>Spotter # </li>
+        <li>Brief location</li>
+        <li>Time of weather event</li>
+        <li>Detailed weather report</li>
+        </ol>
+        </ion-col></ion-row>
+      <ion-row *ngIf="data.reportUrl">
+        <ion-col col-4>Report Website URL</ion-col>
+          <ion-col col-8>
+              <button ion-button (click)="sharedVars.launch(data.reportUrl)">Visit Report Website</button>
+          
+      </ion-col></ion-row>
+    </ion-grid>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-grid *ngSwitchCase="'contact'">
+        <h2>SKYWARN/CAST Leader Contact Information</h2>
+      <ion-row *ngIf="">
+        <ion-col col-4> Name</ion-col>
+          <ion-col col-8>
+          {{data.contactName}}
+      </ion-col></ion-row>
+      <ion-row *ngIf="data.contactEmail">
+        <ion-col col-4>Email Address</ion-col>
+          <ion-col col-8>
+              <button ion-button (click)="sharedVars.launch('mailto:'+data.contactEmail)">Email {{data.contactName}}</button>
+              
+      </ion-col></ion-row>
+      <ion-row *ngIf="data.contactPhone">
+        <ion-col col-4>Phone number</ion-col>
+          <ion-col col-8>
+              <button ion-button (click)="sharedVars.launch('tel:'+data.contactPhone)">Call {{data.contactName}}</button>
+      </ion-col></ion-row>
+
+ </ion-grid>
+    </div>
+    <button ion-button (click)="itemTapped($event)">Edit your spotter information</button>
+
 </ion-content>

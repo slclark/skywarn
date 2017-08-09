@@ -1,0 +1,67 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Spotter Data</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <p *ngIf="submitAttempt" class="valid">Your data has been saved.</p>
+
+    <ion-list no-lines>
+        <form [formGroup]="spotterData" (ngSubmit)="save()">
+            <ion-list>
+                <ion-item-group>
+                    <ion-item-divider color="light">
+                        Reporting Information
+                    </ion-item-divider>
+                    <ion-item>
+                        <ion-label floating>Your Spotter Number</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.spotterNumber.valid && (spotterData.controls.spotterNumber.dirty || submitAttempt)" type="text" formControlName="spotterNumber"></ion-input>
+                    </ion-item>
+                    <ion-item *ngIf="!spotterData.controls.spotterNumber.valid  && (spotterData.controls.spotterNumber.dirty || submitAttempt)">
+                        <p>Please enter a valid spotter number.</p>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label floating>Spotter Phone Line #1</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.phone1.valid && (spotterData.controls.phone1.dirty || submitAttempt)" type="tel" formControlName="phone1"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label floating>Spotter Phone Line #2</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.phone2.valid && (spotterData.controls.phone2.dirty || submitAttempt)" type="tel" formControlName="phone2"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label floating>Report Website URL</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.reportUrl.valid && (spotterData.controls.reportUrl.dirty || submitAttempt)" type="url" formControlName="reportUrl"></ion-input>
+                    </ion-item>
+
+                </ion-item-group>
+                <ion-item-group>
+                    <ion-item-divider color="light">
+                        SKYWARN/CAST Leader Contact Information
+                    </ion-item-divider>
+                    <ion-item>
+                        <ion-label floating> Name</ion-label>
+                        <ion-textarea formControlName="contactName"></ion-textarea>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label floating>Email Address</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.contactEmail.valid && (spotterData.controls.contactEmail.dirty || submitAttempt)" type="email" formControlName="contactEmail"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label floating>Phone number</ion-label>
+                        <ion-input [class.invalid]="!spotterData.controls.contactPhone.valid && (spotterData.controls.contactPhone.dirty || submitAttempt)" type="tel" pattern="[0-9\-]+" formControlName="contactPhone"></ion-input>
+                    </ion-item>
+
+                </ion-item-group>
+            </ion-list>
+            
+                <button ion-button type="submit" [disabled]="!spotterData.valid">Submit</button>
+        </form>
+
+    </ion-list>
+
+</ion-content>

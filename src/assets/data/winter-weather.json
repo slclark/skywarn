@@ -3,56 +3,56 @@
     "title": "Heavy Snow",
     "call": "1\" snowfall per hour or greater or per HWO guidelines",
     "criteria": "<strong>Plains: </strong>6\" or more in 12 hours or 8\" in 24 hours<br/><strong>Mountains: </strong>8\" or more in 12 hours or 12\" in 24 hours.",
-    "icon": "assets/icon/tornado.jpg",
+    "icon": "assets/icon/heavy_snow.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Linda Lusk, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Blizzard",
     "call": "Winds 35 mph or greater<br/>Visibility less than 1/4 mile in snow and/or blowing snow.",
     "criteria": "Sustained/Frequent  gusts 35 mph or more for 3 hours.<br/>Visibilities < 1/4 mile for 3 hours<br/>Considerable blowing/drifting snow.",
-    "icon": "assets/icon/hail.jpg",
+    "icon": "assets/icon/blizzard.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Storm Totals",
     "call": "12/24 hour snowfall/snow depth.<br/>By 8am/8pm of when snow has stopped.",
     "criteria": "Take average of 5 measurements if drifting has occurred and measure to nearest tenth of an inch.",
-    "icon": "assets/icons/wind_gusts.jpg",
+    "icon": "assets/icon/storm_totals.jpg",
     "copyright": ""
   },
   {
     "title": "High Winds",
     "call": "50 mph or higher-sustained or gusts (specify estimate or measured).",
     "criteria": "<strong>Lower Elevations: </strong>Sustained 40 mph.  Gusts 58 mph or more.<br/><strong>Mountains: </strong> Sustained 50 mph. Gusts 75 mph or more.",
-    "icon": "assets/icons/heavy_rain.jpg",
+    "icon": "assets/icon/high_winds.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Dense Fog",
     "call": "Visibilities: 1/4 mile or less.",
     "criteria": "Dense fog advisory.",
-    "icon": "assets/icons/storm_damage.jpg",
+    "icon": "assets/icon/dense_fog.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Freezing Drizzle",
     "call": "Road surface becomes icy and slick.",
     "criteria": "",
-    "icon": "assets/icons/storm_damage.jpg",
+    "icon": "assets/icon/freezing_drizzle.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Adverse Road Conditions",
     "call": "Impassable roads/road closures.",
     "criteria": "",
-    "icon": "assets/icons/storm_damage.jpg",
+    "icon": "assets/icon/adverse_road_conditions.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   },
   {
     "title": "Rain vs. Snow",
     "call": "Changeover from rain to snow and vice versa.",
     "criteria": "",
-    "icon": "assets/icons/storm_damage.jpg",
+    "icon": "assets/icon/rain_vs_snow.jpg",
     "copyright": "Copyright University Corporation for Atmospheric Research (UCAR). By Carlye Calvin, licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, via OpenSky. For commercial use contact copyright@ucar.edu."
   }
 ]

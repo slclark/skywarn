@@ -8,16 +8,21 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid>
-  <ion-row class="details-header">
-    <ion-col col-3>Type of Event</ion-col>
-    <ion-col col-4>When to Call</ion-col>
-    <ion-col col-5>NWS Warning Local Criteria/Additional Information</ion-col>
+
+   
+<ion-grid>   
+    <ion-row>
+    <ion-col col-12> 
+        <img [src]="selectedItem.icon"/><h1>{{selectedItem.title}}</h1>
+    </ion-col>
+    </ion-row>
+  <ion-row>
+    <ion-col class="details-info" col-4>When to Call</ion-col>
+    <ion-col col-8 [innerHtml]="selectedItem.call"></ion-col>
   </ion-row>
-  <ion-row class="details-info">
-    <ion-col col-3 class="name"><img [src]="selectedItem.icon"/><h1>{{selectedItem.title}}</h1></ion-col>
-    <ion-col col-4 [innerHtml]="selectedItem.call"></ion-col>
-    <ion-col col-5 [innerHtml]="selectedItem.criteria"></ion-col>
+  <ion-row class="details-info" *ngIf="selectedItem.criteria">
+    <ion-col col-4>NWS Warning Local Criteria/Additional Information</ion-col>
+    <ion-col col-8 [innerHtml]="selectedItem.criteria"></ion-col>
   </ion-row>
 </ion-grid>
 </ion-content>
